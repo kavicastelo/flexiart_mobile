@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.flexiart.flexiartmobile.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.flexiart.flexiartmobile.ui.gallery.GalleryFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.flexiart.flexiartmobile.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_blog"
+        android:name="com.flexiart.flexiartmobile.ui.blog.Blog_Fragment"
+        android:label="@string/menu_blog"
+        tools:layout="@layout/fragment_blog" />
+
+    <fragment
+        android:id="@+id/nav_works"
+        android:name="com.flexiart.flexiartmobile.ui.works.WorksFragment"
+        android:label="@string/menu_works"
+        tools:layout="@layout/fragment_works" />
+
+    <fragment
+        android:id="@+id/nav_pricing"
+        android:name="com.flexiart.flexiartmobile.ui.pricing.PricingFragment"
+        android:label="@string/menu_Pricing"
+        tools:layout="@layout/fragment_pricing" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.flexiart.flexiartmobile.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>
