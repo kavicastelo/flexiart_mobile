@@ -31,7 +31,7 @@ public class HomeFragment extends Fragment {
 
         final WebView webView = binding.homeWebview;
         final ProgressBar pb = binding.pgbar;
-        webView.loadUrl("https://flexi-art.com/#/home");
+        webView.loadUrl("https://flexi-art.com/");
 
         webView.setWebViewClient(new WebViewClient(){
             @Override
